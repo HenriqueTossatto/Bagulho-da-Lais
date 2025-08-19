@@ -1,0 +1,2461 @@
+{
+  "id": "a490a16f-fc5d-41ca-a8f0-1231e98f2dc4",
+  "version": "3.0",
+  "name": "New Project",
+  "url": "http://www.google.com",
+  "urls": [
+    "http://www.google.com"
+  ],
+  "plugins": [],
+  "suites": [
+    {
+      "id": "5975b1c8-5380-4f44-8436-31ba2a5d4277",
+      "name": "New Suite",
+      "parallel": false,
+      "persistSession": false,
+      "tests": [
+        "f11b0aca-af68-4b5f-ba9a-73386697e76a"
+      ],
+      "timeout": 30000
+    }
+  ],
+  "tests": [
+    {
+      "id": "f11b0aca-af68-4b5f-ba9a-73386697e76a",
+      "name": "CT-001 - Usuario ja cadastrado",
+      "commands": [
+        {
+          "command": "open",
+          "target": "http://127.0.0.1:5500/templates/cadastro.html",
+          "value": "",
+          "id": "2679ff5b-094c-445a-8410-25395609ae08",
+          "isBreakpoint": true
+        },
+        {
+          "command": "click",
+          "target": "id=nome",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "057dcd6d-5f09-44ae-820b-34cd49844fea",
+          "targets": [
+            [
+              "id=nome",
+              "id"
+            ],
+            [
+              "name=nome",
+              "name"
+            ],
+            [
+              "css=#nome",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='nome'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=nome",
+          "value": "PedroHenrique",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "712be6c5-a31d-4e19-a302-8d409469da3c",
+          "targets": [
+            [
+              "id=nome",
+              "id"
+            ],
+            [
+              "name=nome",
+              "name"
+            ],
+            [
+              "css=#nome",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='nome'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=data",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "f793e88d-1794-4a24-a486-6a0f3a8d2c99",
+          "targets": [
+            [
+              "id=data",
+              "id"
+            ],
+            [
+              "name=data_nascimento",
+              "name"
+            ],
+            [
+              "css=#data",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='data'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=data",
+          "value": "0002-08-28",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "badecfea-4366-4e4a-985a-519b0904b1e4",
+          "targets": [
+            [
+              "id=data",
+              "id"
+            ],
+            [
+              "name=data_nascimento",
+              "name"
+            ],
+            [
+              "css=#data",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='data'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=data",
+          "value": "0020-08-28",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "b36ba880-e02c-4625-ae9f-0b81c5ae1923",
+          "targets": [
+            [
+              "id=data",
+              "id"
+            ],
+            [
+              "name=data_nascimento",
+              "name"
+            ],
+            [
+              "css=#data",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='data'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=data",
+          "value": "0200-08-28",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "21a967f7-8587-4180-950d-4a49837e0e2f",
+          "targets": [
+            [
+              "id=data",
+              "id"
+            ],
+            [
+              "name=data_nascimento",
+              "name"
+            ],
+            [
+              "css=#data",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='data'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=data",
+          "value": "2007-08-28",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "6298b88e-990c-41fa-8302-9be5f961dcb3",
+          "targets": [
+            [
+              "id=data",
+              "id"
+            ],
+            [
+              "name=data_nascimento",
+              "name"
+            ],
+            [
+              "css=#data",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='data'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=email",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "b365880f-b2f2-4f10-93c6-913ecbc3ab19",
+          "targets": [
+            [
+              "id=email",
+              "id"
+            ],
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=#email",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='email'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div/input[2])[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=email",
+          "value": "pedro@gmail.com",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "ab39a00b-38cf-4057-851e-c16335dc63c5",
+          "targets": [
+            [
+              "id=email",
+              "id"
+            ],
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=#email",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='email'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div/input[2])[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=tel",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "89c97108-2c5d-44af-a97f-efef836e97e0",
+          "targets": [
+            [
+              "id=tel",
+              "id"
+            ],
+            [
+              "name=telefone",
+              "name"
+            ],
+            [
+              "css=#tel",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='tel'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div[2]/input[2])[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=tel",
+          "value": "(18) 98193-5775",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "4270e8c5-bb94-4ba3-91d8-7f9b13d7063d",
+          "targets": [
+            [
+              "id=tel",
+              "id"
+            ],
+            [
+              "name=telefone",
+              "name"
+            ],
+            [
+              "css=#tel",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='tel'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div[2]/input[2])[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=senha",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "0f8b7079-3f3d-4497-8ab8-102a2bdfb050",
+          "targets": [
+            [
+              "id=senha",
+              "id"
+            ],
+            [
+              "name=senha",
+              "name"
+            ],
+            [
+              "css=#senha",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='senha'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=senha",
+          "value": "Pedro123@",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "b70cc1e9-aad0-477b-8706-ace56a4d6342",
+          "targets": [
+            [
+              "id=senha",
+              "id"
+            ],
+            [
+              "name=senha",
+              "name"
+            ],
+            [
+              "css=#senha",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='senha'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.botao-cadastro",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "6afc97cd-6373-4563-93ba-27f53f549cd9",
+          "targets": [
+            [
+              "css=.botao-cadastro",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@type='submit' and text()='Cadastrar'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,'Cadastrar')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.swal2-confirm",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "979aecc1-14ce-43b7-9297-cf2bbcdc553c",
+          "targets": [
+            [
+              "css=.swal2-confirm",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@type='button' and text()='OK'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//button[contains(.,'OK')]",
+              "xpath:innerText"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "49f7f23e-9cbe-4d9f-a5e1-3777c4b70949",
+      "name": "CT-002 - Cadastro de Usuario",
+      "commands": [
+        {
+          "id": "52364834-363b-40fa-b27c-40c305703c41",
+          "command": "open",
+          "target": "http://127.0.0.1:5500/templates/cadastro.html",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "id=nome",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "bd2648c4-5928-4b69-9f65-bfb6e2480f6f",
+          "targets": [
+            [
+              "id=nome",
+              "id"
+            ],
+            [
+              "name=nome",
+              "name"
+            ],
+            [
+              "css=#nome",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='nome'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=nome",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "a1f6ceb9-283e-465d-9f53-72362fc81549",
+          "targets": [
+            [
+              "id=nome",
+              "id"
+            ],
+            [
+              "name=nome",
+              "name"
+            ],
+            [
+              "css=#nome",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='nome'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=nome",
+          "value": "Pedro Henrique",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "95f0485b-2a0b-4d0a-89bb-fcd630c850c2",
+          "targets": [
+            [
+              "id=nome",
+              "id"
+            ],
+            [
+              "name=nome",
+              "name"
+            ],
+            [
+              "css=#nome",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='nome'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=data",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "0888f3eb-40b6-4754-bff9-bec3e09a1878",
+          "targets": [
+            [
+              "id=data",
+              "id"
+            ],
+            [
+              "name=data_nascimento",
+              "name"
+            ],
+            [
+              "css=#data",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='data'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=data",
+          "value": "0002-08-28",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "9369a264-9925-4055-b77a-b66eb12bb583",
+          "targets": [
+            [
+              "id=data",
+              "id"
+            ],
+            [
+              "name=data_nascimento",
+              "name"
+            ],
+            [
+              "css=#data",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='data'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=data",
+          "value": "0020-08-28",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "242f2e18-f243-4f9b-8113-2b9266065399",
+          "targets": [
+            [
+              "id=data",
+              "id"
+            ],
+            [
+              "name=data_nascimento",
+              "name"
+            ],
+            [
+              "css=#data",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='data'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=data",
+          "value": "0200-08-28",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "aa28482e-c516-4d5e-a0fe-e5af2cc67c5a",
+          "targets": [
+            [
+              "id=data",
+              "id"
+            ],
+            [
+              "name=data_nascimento",
+              "name"
+            ],
+            [
+              "css=#data",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='data'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=data",
+          "value": "2007-08-28",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "a3bfde10-7d3f-48c7-b431-cf4c4fa9a5f1",
+          "targets": [
+            [
+              "id=data",
+              "id"
+            ],
+            [
+              "name=data_nascimento",
+              "name"
+            ],
+            [
+              "css=#data",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='data'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=email",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "65ff3e52-207d-42bf-b05a-a77643364ecb",
+          "targets": [
+            [
+              "id=email",
+              "id"
+            ],
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=#email",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='email'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div/input[2])[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=email",
+          "value": "pedro@gmail.com",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "f8de4b14-6b54-491f-b931-6e58f9825598",
+          "targets": [
+            [
+              "id=email",
+              "id"
+            ],
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=#email",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='email'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div/input[2])[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=tel",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "7db5e3bd-db36-4969-acb8-c4391970203a",
+          "targets": [
+            [
+              "id=tel",
+              "id"
+            ],
+            [
+              "name=telefone",
+              "name"
+            ],
+            [
+              "css=#tel",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='tel'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div[2]/input[2])[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=tel",
+          "value": "(18) 98193-5775",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "595d7f38-2dc9-463e-8b46-4edb06becc6e",
+          "targets": [
+            [
+              "id=tel",
+              "id"
+            ],
+            [
+              "name=telefone",
+              "name"
+            ],
+            [
+              "css=#tel",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='tel'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div[2]/input[2])[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=senha",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "bf490849-cf26-45e4-ad30-f7efbd5e6234",
+          "targets": [
+            [
+              "id=senha",
+              "id"
+            ],
+            [
+              "name=senha",
+              "name"
+            ],
+            [
+              "css=#senha",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='senha'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=senha",
+          "value": "Pedro123@",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "c14185c9-763e-4e2c-b0ec-b29d669fb535",
+          "targets": [
+            [
+              "id=senha",
+              "id"
+            ],
+            [
+              "name=senha",
+              "name"
+            ],
+            [
+              "css=#senha",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='senha'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.botao-cadastro",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "8d5de9c5-890b-4ecb-af95-49261c5b7174",
+          "targets": [
+            [
+              "css=.botao-cadastro",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@type='submit' and text()='Cadastrar'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,'Cadastrar')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "waitForText",
+          "target": "css=.swal2-popup",
+          "value": "Sucesso!\nCadastro feito com sucesso\nOK",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "053add36-329f-49d0-ad08-9eb658f09e02",
+          "targets": [
+            [
+              "css=.swal2-popup",
+              "css:finder"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b91bdb99-041b-49d0-9d0c-fa97caabc3df",
+      "name": "CT-003 - Usuario sem Nome",
+      "commands": [
+        {
+          "id": "1c2cc9fb-38ae-4e7f-b865-324d24fffa27",
+          "command": "open",
+          "target": "http://127.0.0.1:5500/templates/cadastro.html",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "id=data",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "c77cfc5b-d203-4e52-a138-51d861cc9db5",
+          "targets": [
+            [
+              "id=data",
+              "id"
+            ],
+            [
+              "name=data_nascimento",
+              "name"
+            ],
+            [
+              "css=#data",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='data'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=data",
+          "value": "0002-08-28",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "5ae4a1be-94a6-4ac5-abf0-c7e24f4fe0a0",
+          "targets": [
+            [
+              "id=data",
+              "id"
+            ],
+            [
+              "name=data_nascimento",
+              "name"
+            ],
+            [
+              "css=#data",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='data'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=data",
+          "value": "0020-08-28",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "fc8d3f6f-8556-4d01-a717-d9180bead0a6",
+          "targets": [
+            [
+              "id=data",
+              "id"
+            ],
+            [
+              "name=data_nascimento",
+              "name"
+            ],
+            [
+              "css=#data",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='data'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=data",
+          "value": "0200-08-28",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "ef5aa4bc-66ed-40c6-9418-532c3c4022db",
+          "targets": [
+            [
+              "id=data",
+              "id"
+            ],
+            [
+              "name=data_nascimento",
+              "name"
+            ],
+            [
+              "css=#data",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='data'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=data",
+          "value": "2007-08-28",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "012a6d2d-34fd-44bd-91f3-7273c9ac52fa",
+          "targets": [
+            [
+              "id=data",
+              "id"
+            ],
+            [
+              "name=data_nascimento",
+              "name"
+            ],
+            [
+              "css=#data",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='data'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=email",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "1420953d-706c-4abb-b2eb-e3621fc91f78",
+          "targets": [
+            [
+              "id=email",
+              "id"
+            ],
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=#email",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='email'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div/input[2])[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=email",
+          "value": "pedro@gmail.com",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "d2c45f01-e7d7-429a-a4c9-5530411b1a48",
+          "targets": [
+            [
+              "id=email",
+              "id"
+            ],
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=#email",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='email'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div/input[2])[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=tel",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "fb39a556-e1b2-4b95-9657-ed39b88a33ac",
+          "targets": [
+            [
+              "id=tel",
+              "id"
+            ],
+            [
+              "name=telefone",
+              "name"
+            ],
+            [
+              "css=#tel",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='tel'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div[2]/input[2])[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=tel",
+          "value": "(18) 98193-5775",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "d675425b-a08d-482f-9c0d-31ba44739f38",
+          "targets": [
+            [
+              "id=tel",
+              "id"
+            ],
+            [
+              "name=telefone",
+              "name"
+            ],
+            [
+              "css=#tel",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='tel'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div[2]/input[2])[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=senha",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "7c0f5117-4225-42d4-be31-f7bf7e8470f5",
+          "targets": [
+            [
+              "id=senha",
+              "id"
+            ],
+            [
+              "name=senha",
+              "name"
+            ],
+            [
+              "css=#senha",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='senha'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=senha",
+          "value": "Pedro123@",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "206c5c43-dfc9-48bb-bf52-221f950a3f37",
+          "targets": [
+            [
+              "id=senha",
+              "id"
+            ],
+            [
+              "name=senha",
+              "name"
+            ],
+            [
+              "css=#senha",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='senha'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.botao-cadastro",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "6c3d6940-9b88-46e9-a73b-1dd9833b9013",
+          "targets": [
+            [
+              "css=.botao-cadastro",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@type='submit' and text()='Cadastrar'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,'Cadastrar')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "waitForText",
+          "target": "css=.botao-cadastro",
+          "value": "Cadastrar",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "7531d6c8-4430-4684-97b7-b0f87c98da1c",
+          "targets": [
+            [
+              "css=.botao-cadastro",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@type='submit' and text()='Cadastrar'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,'Cadastrar')]",
+              "xpath:innerText"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5d54da50-a885-4a95-b523-5717d8697a06",
+      "name": "CT-004 -Cadastro sem Data",
+      "commands": [
+        {
+          "id": "d10689da-c7a6-44c2-9186-53f8f605c451",
+          "command": "open",
+          "target": "http://127.0.0.1:5500/templates/cadastro.html",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "id=nome",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "f7b02385-a3a8-4dbf-9071-a0ab94719531",
+          "targets": [
+            [
+              "id=nome",
+              "id"
+            ],
+            [
+              "name=nome",
+              "name"
+            ],
+            [
+              "css=#nome",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='nome'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=nome",
+          "value": "Pedro Henrique",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "e0435ede-4d1f-4520-a185-cffad1b9432c",
+          "targets": [
+            [
+              "id=nome",
+              "id"
+            ],
+            [
+              "name=nome",
+              "name"
+            ],
+            [
+              "css=#nome",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='nome'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=email",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "b3cfdcc7-9184-4d2b-8621-9b31e639668f",
+          "targets": [
+            [
+              "id=email",
+              "id"
+            ],
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=#email",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='email'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div/input[2])[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=email",
+          "value": "pedro@gmail.com",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "1c266ad4-8a35-467a-bcce-cf7a42884f15",
+          "targets": [
+            [
+              "id=email",
+              "id"
+            ],
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=#email",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='email'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div/input[2])[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=tel",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "438744a2-02f5-4e82-b6c1-6a8f63c77b98",
+          "targets": [
+            [
+              "id=tel",
+              "id"
+            ],
+            [
+              "name=telefone",
+              "name"
+            ],
+            [
+              "css=#tel",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='tel'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div[2]/input[2])[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=tel",
+          "value": "(18) 98193-5775",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "402cd527-b556-41dc-b646-e5bd02ccdb39",
+          "targets": [
+            [
+              "id=tel",
+              "id"
+            ],
+            [
+              "name=telefone",
+              "name"
+            ],
+            [
+              "css=#tel",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='tel'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div[2]/input[2])[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=senha",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "bf5f0be1-8a8c-4ef1-b833-b20a69667858",
+          "targets": [
+            [
+              "id=senha",
+              "id"
+            ],
+            [
+              "name=senha",
+              "name"
+            ],
+            [
+              "css=#senha",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='senha'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=senha",
+          "value": "Pedro123@",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "364ce641-0f11-4a36-904a-0e16e6f7ea76",
+          "targets": [
+            [
+              "id=senha",
+              "id"
+            ],
+            [
+              "name=senha",
+              "name"
+            ],
+            [
+              "css=#senha",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='senha'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.botao-cadastro",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "00f49f28-76d0-4361-9396-36febf99219c",
+          "targets": [
+            [
+              "css=.botao-cadastro",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@type='submit' and text()='Cadastrar'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,'Cadastrar')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "waitForText",
+          "target": "css=.cadastro > div:nth-child(2)",
+          "value": "Data de Nascimento:\nTelefone:",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "cb165908-12cf-44cb-bb0c-4b53f20bc942",
+          "targets": [
+            [
+              "css=.cadastro > div:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div[2])[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3aa436e3-fffa-4b4c-9d4b-485969a6ec75",
+      "name": "CT-007 - Cadastro sem Senha",
+      "commands": [
+        {
+          "id": "d6e4cfa2-b13c-4ca7-b47b-012d17330090",
+          "command": "open",
+          "target": "http://127.0.0.1:5500/templates/cadastro.html",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "id=nome",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "acbcde47-0bc4-48b6-8e06-857e5036119f",
+          "targets": [
+            [
+              "id=nome",
+              "id"
+            ],
+            [
+              "name=nome",
+              "name"
+            ],
+            [
+              "css=#nome",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='nome'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=nome",
+          "value": "Pedro Henrique",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "f2235009-a0e5-4e42-a853-4aef6969e0b8",
+          "targets": [
+            [
+              "id=nome",
+              "id"
+            ],
+            [
+              "name=nome",
+              "name"
+            ],
+            [
+              "css=#nome",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='nome'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=data",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "600e8e8a-11c4-468b-b36c-54e6b80b216d",
+          "targets": [
+            [
+              "id=data",
+              "id"
+            ],
+            [
+              "name=data_nascimento",
+              "name"
+            ],
+            [
+              "css=#data",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='data'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=data",
+          "value": "0002-08-28",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "ab63ac0e-b5c0-484e-b5b7-d8599ef242a2",
+          "targets": [
+            [
+              "id=data",
+              "id"
+            ],
+            [
+              "name=data_nascimento",
+              "name"
+            ],
+            [
+              "css=#data",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='data'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=data",
+          "value": "0020-08-28",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "bc001f0a-686a-4d50-9285-fa8ac22f6c8d",
+          "targets": [
+            [
+              "id=data",
+              "id"
+            ],
+            [
+              "name=data_nascimento",
+              "name"
+            ],
+            [
+              "css=#data",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='data'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=data",
+          "value": "0200-08-28",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "de06174b-471e-4a34-969b-47c4d2e9036f",
+          "targets": [
+            [
+              "id=data",
+              "id"
+            ],
+            [
+              "name=data_nascimento",
+              "name"
+            ],
+            [
+              "css=#data",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='data'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=data",
+          "value": "2007-08-28",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "cc3d0ff8-2af4-4917-9184-065fc91ba9f0",
+          "targets": [
+            [
+              "id=data",
+              "id"
+            ],
+            [
+              "name=data_nascimento",
+              "name"
+            ],
+            [
+              "css=#data",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='data'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=email",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "75434cb0-a5e4-4c96-aca4-85222ae0c481",
+          "targets": [
+            [
+              "id=email",
+              "id"
+            ],
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=#email",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='email'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div/input[2])[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=email",
+          "value": "pedro@gmail.com",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "cd75578f-b97d-4035-8a24-9063d1b97129",
+          "targets": [
+            [
+              "id=email",
+              "id"
+            ],
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=#email",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='email'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div/input[2])[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=tel",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "5e8c4db1-ad17-4f4d-a19b-2462602b6de2",
+          "targets": [
+            [
+              "id=tel",
+              "id"
+            ],
+            [
+              "name=telefone",
+              "name"
+            ],
+            [
+              "css=#tel",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='tel'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div[2]/input[2])[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=tel",
+          "value": "(18) 98193-5775",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "283a111f-9449-4543-bdf9-8b3d3d11b65f",
+          "targets": [
+            [
+              "id=tel",
+              "id"
+            ],
+            [
+              "name=telefone",
+              "name"
+            ],
+            [
+              "css=#tel",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='tel'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div[2]/input[2])[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.botao-cadastro",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "0a70a056-4aa0-483a-ab26-69b9534d41b4",
+          "targets": [
+            [
+              "css=.botao-cadastro",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@type='submit' and text()='Cadastrar'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,'Cadastrar')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "waitForText",
+          "target": "css=.cadastro > div:nth-child(2)",
+          "value": "Data de Nascimento:\nTelefone:",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "f92b35e8-5e71-4b14-81a4-0b2f62393ce9",
+          "targets": [
+            [
+              "css=.cadastro > div:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//form[@id='formCadastro']/div/div[2])[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5cdd26d6-9b34-41e2-80ef-552565bc6c15",
+      "name": "CT-008 - Login do Usuario",
+      "commands": [
+        {
+          "id": "04bf11e5-2d82-4528-a0da-19399258106a",
+          "command": "open",
+          "target": "http://127.0.0.1:5500/templates/login.html",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "id=email",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "a1171c61-c435-4826-99ff-38ea349acb06",
+          "targets": [
+            [
+              "id=email",
+              "id"
+            ],
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=#email",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='email'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formLoginUsuario']/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=email",
+          "value": "pedro@gmail.com",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "31888ad9-f387-43f6-b1bb-d21123d5e715",
+          "targets": [
+            [
+              "id=email",
+              "id"
+            ],
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=#email",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='email'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formLoginUsuario']/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=senha",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "2b5ea441-586e-427c-9d20-b9fdc6c225fc",
+          "targets": [
+            [
+              "id=senha",
+              "id"
+            ],
+            [
+              "name=senha",
+              "name"
+            ],
+            [
+              "css=#senha",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='senha'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formLoginUsuario']/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=senha",
+          "value": "Pedro123@",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "812ac367-bf81-43f4-aba6-5c7da79c13e7",
+          "targets": [
+            [
+              "id=senha",
+              "id"
+            ],
+            [
+              "name=senha",
+              "name"
+            ],
+            [
+              "css=#senha",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='senha'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formLoginUsuario']/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.botao-login",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "addf5d25-5de0-4313-b4b9-d355c3bbe6eb",
+          "targets": [
+            [
+              "css=.botao-login",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@type='submit' and text()='Login'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formLoginUsuario']/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,'Login')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "waitForText",
+          "target": "css=[data-swal2-theme=\"light\"]",
+          "value": "Sucesso!\nLogin realizado com sucesso\nOK",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "1dcdc9b6-7977-447b-97ce-c09defc8ea04",
+          "targets": [
+            [
+              "css=[data-swal2-theme=\"light\"]",
+              "css:data-attr"
+            ],
+            [
+              "css=.swal2-container",
+              "css:finder"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6837e564-c092-4255-9986-c3dd9f6f9173",
+      "name": "CT-011 - Login Senha Incorreta 2",
+      "commands": [
+        {
+          "id": "c5499588-34d8-49fb-88fa-9f2209c5654f",
+          "command": "open",
+          "target": "http://127.0.0.1:5500/templates/login.html",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "id=email",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "9401653d-4cab-42a7-b692-5c1ce90ebd2c",
+          "targets": [
+            [
+              "id=email",
+              "id"
+            ],
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=#email",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='email'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formLoginUsuario']/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=email",
+          "value": "pedro@gmail.com",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "117b016d-4884-43c4-ba70-390880d3c9ed",
+          "targets": [
+            [
+              "id=email",
+              "id"
+            ],
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=#email",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='email'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formLoginUsuario']/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=senha",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "29d4bbf1-0334-47e9-81c8-84d3fd7c3912",
+          "targets": [
+            [
+              "id=senha",
+              "id"
+            ],
+            [
+              "name=senha",
+              "name"
+            ],
+            [
+              "css=#senha",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='senha'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formLoginUsuario']/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=senha",
+          "value": "Pedro12345@",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "7191c778-35da-495f-ab34-9a0bd1cef905",
+          "targets": [
+            [
+              "id=senha",
+              "id"
+            ],
+            [
+              "name=senha",
+              "name"
+            ],
+            [
+              "css=#senha",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='senha'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formLoginUsuario']/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.botao-login",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "18c8b30c-e157-4c0a-898c-8daba23c8584",
+          "targets": [
+            [
+              "css=.botao-login",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@type='submit' and text()='Login'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='formLoginUsuario']/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,'Login')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "waitForText",
+          "target": "css=[data-swal2-theme=\"light\"]",
+          "value": "Inválido!\nEmail ou senha inválidos\nOK",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "05b92ec0-53b4-4598-b42d-3ffcecc80179",
+          "targets": [
+            [
+              "css=[data-swal2-theme=\"light\"]",
+              "css:data-attr"
+            ],
+            [
+              "css=.swal2-container",
+              "css:finder"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "snapshot": {
+    "dependencies": {},
+    "tests": [],
+    "jest": {
+      "extraGlobals": []
+    }
+  }
+}
